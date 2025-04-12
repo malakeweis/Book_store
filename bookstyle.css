@@ -1,9 +1,7 @@
 
-body{
-    background-image:  url(..\image\bg.png); 
-    background-position:top;
 
-}
+/* nav section  */
+
 a {
     cursor: pointer;
     text-decoration: none;
@@ -22,14 +20,6 @@ ul {
 
     
 }
-.pharg {
-    padding: 11px;
-    text-align: center;
-}
-/* 
-.material icons {
-
-} */
 #fav {
  
     margin: 0% 0% 0% 84%;
@@ -57,57 +47,171 @@ nav {
     border-style: none none outset none;
     border-color: rgb(16, 161, 152);
 }
-
-#imghome{
-    width: 40%;
-    
-    margin-left: 50%;
-   
-    display: flex;
-
-   
-    margin: -97% 6% 18% 54%;
-}
-
-#welcomdiv{
-    padding: 70px;
-    /* background-image: url(..\image\bg.png); */
-   /* background-position:center;*/
-}
-#bg{
-    background-position:center;
-}   
-
+/*   */
+/* Home Section  */
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
 }
-span {
-    color:  rgb(22, 162, 153);
-}
-button.larnmore {
-    padding: 10px;
-    background-color: rgb(22, 162, 153);
-    border-style: none;
-    color: white;
-    margin: 25px 0px 0px 1px;
-    
-    
-}
 
-.about2 {
+
+body {
+    background-image: url("image/bg.png");
+    background-position: top;
+}
+#welco_home {
+
+    margin: 13% -6% 0% 6%;
     
+}
+#img_home {
+    width: 47%;
+    margin: -23% 0% 0% 41%;
+}
+button.learn_more {
+
+    
+    background-color: #0097a7;  
+    color: white;               
+    padding: 10px 20px;         
+    border: none;              
+    border-radius: 4px;      
+    font-size: 16px;            
+    cursor: pointer;            
+    text-align: center;
+    text-decoration: none;     
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+/* .follow_home_section {
     display: flex;
-    justify-content: space-around;
+    gap: 5%;
+    text-align: center;
+    margin:25% 0% 0% 5%;
+
 }
-.fastdelivery {
+#style_div_for_follohomesec {
+border-style: solid;
+border-color: rgb(16, 161, 152);
+}
+#welco_home-phar {
+    font-size: medium;
+}
+#title {
+    font-size: -webkit-xxx-large;
+}
+span{
+    color:  rgb(16, 161, 152);
+} */
+
+
+.services-container {
+    display: flex;
+ 
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 24% 11% 6% 11%;
+}
+
+.service-box {
+    background-color: white;
    
-
-    padding: 6px;
-    border-color: rgb(22, 162, 153);
+    box-shadow: 0 4px 8px rgb(255, 247, 247);
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
     border-style: solid;
-
+    border-color:  #0097a7;  
+    gap: 15px;
 }
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.service-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* About Section */
+.about-section {
+    padding: 60px 40px;
+    background-color: #fff;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+ 
+  .about-image img {
+    display: block;
+    height: auto;
+    max-width: 100%; 
+    width: 700px;
+  }
+  
+  .about-content {
+    max-width: 500px;
+  }
+  
+  .about-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+
+  .button {
+    background-color: #0097a7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #007c91;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
 /* h3 {
    
    
